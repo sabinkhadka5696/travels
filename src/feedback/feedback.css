@@ -1,0 +1,59 @@
+.feedback {
+    margin-top: 100px;
+    background-color:rgba(135, 207, 235, 0.399);
+    width: 100%;
+    height: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.feedback-title {
+    margin-left: 90px;  
+    margin-top: 100px;  
+}
+.feedback-subtitle{
+    padding-top: 30px;
+    color: rgba(128, 128, 128, 0.747);
+}
+.feedback2-title {
+    position: relative;
+    margin-left: 115px;
+    margin-top: -150px;
+}
+.feedback3-title{
+    margin-top: -150px;
+    margin-left: -400px;
+}
+.feedback3-title > .rating {
+    font-size: 10px;
+   margin-top: -15px;
+}
+.feedback3-subtitle{
+    color: rgba(128, 128, 128, 0.747);
+}
+.feedback2-subtitle{
+    color: rgba(128, 128, 128, 0.747);
+}
+.slider{
+    width: 600px;
+    height: 500px;
+}
+
+.slider-content > img {
+    border-radius: 50%;
+    object-fit: cover;
+    height: 100px;
+   margin-top: 100px;
+}
+.slider-content > .profile-title{
+    margin-top: -90px;
+    margin-left: 100px;
+}
+.slider-content > .profile-subtitle {
+    margin-top: -10px;
+    margin-left: 100px;
+    color: rgba(128, 128, 128, 0.682);
+}
+.slider-content > .profile-subsubtitle {
+    padding-top: 40px;
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}

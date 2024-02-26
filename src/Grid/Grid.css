@@ -1,0 +1,45 @@
+.Grid{
+    padding: 120px;
+}
+.image > img{
+    width: 100%;
+    height: 100%;
+}
+.image {
+    position: relative;
+}
+.Grid-content {
+    position: absolute;
+    inset: 0;
+    top: 70px;
+    left: 50px;
+color: #ffffff;
+
+}
+
+
+.Price {
+   font-family: Georgia, 'Times New Roman', Times, serif;
+   width: 100%;
+   padding-left: 70px;
+  padding-top: 40px;
+}
+.Price > img {
+    position: relative;
+    margin-left: 100px;
+}
+.Price > .Price-content {
+    position: relative;
+    margin-left: 20px;
+    padding: 30px;
+}
+ .subtitle {
+    position: absolute;
+    margin-left: -60px;
+    margin-top: 10px;
+    font-size: 15px;
+    color: rgba(103, 101, 101, 0.74);
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}

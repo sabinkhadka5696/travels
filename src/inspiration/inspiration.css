@@ -1,0 +1,60 @@
+
+.inspiration-title {
+    text-align: center;
+    padding-top: 120px;
+    padding-bottom: 50px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.inspiration-subtitle {
+    color: rgba(128, 128, 128, 0.629);
+}
+.inspiration-image > img{
+    border-radius: 15px;
+    object-fit: cover;
+
+}
+.inspiration-content {
+    padding-top: 15px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 18px;
+}
+.inspiration-image:hover > .zoom {
+    transform: scale(1.1);
+}
+.inspiration-image > img.zoom{
+    transition: all 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+
+.journey{
+    background-color:  rgb(4, 4, 78);
+    color: #ffffff;
+    height: auto;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 100px;
+    padding-bottom: 40px;
+}
+.journey-content{
+    margin-left: 150px;
+    margin-top: 50px;
+}
+.journey-content > i {
+    font-size: 70px;
+}
+.journey-title {
+    margin-left: 100px;
+    margin-top: -70px;
+}
+.journey-subtitle {
+    margin-left: 100px;
+}
+.form {
+    margin-top: 60px; 
+    margin-left: 50px;
+    width: 70%;
+}
+.form > button {
+    margin-left: 570px;
+    margin-top: -70px;
+
+}

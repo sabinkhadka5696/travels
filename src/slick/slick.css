@@ -1,0 +1,76 @@
+.card-1{
+    position: relative;
+    overflow: hidden;
+    padding: 20px;
+}
+.card-1 > img{
+    width: 100%;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 10px;    
+}
+.card-1 > .card-title{
+    position: absolute;
+    inset: 0;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    top: 15px;
+    color: rgb(254, 253, 253);
+    background-color: rgba(5, 16, 54, 0.4);
+}
+.card-1 > .card-head{
+    position: absolute;
+    inset: 0;
+    top: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+}
+.card-1 > .card-subtitle{
+    position: absolute;
+    inset: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(255, 255, 255);
+}
+.card-1 > img,
+.card-1 > .card-title {
+    transition: 200ms ease-in-out;
+    
+}
+.img:hover > .card-title {
+    opacity: 1;
+}
+.card-1 > .card-title {
+    opacity: 0;
+}
+.card-1:hover > .card-subtitle {
+    opacity: 1;
+}
+.card-1 > .card-subtitle {
+    opacity: 0;
+}
+.img:hover > .card-head  {
+    opacity: 0;
+}
+.card-1:hover > img {
+    filter: blur(1px);
+}
+.card-1 > .card-btn {
+    position: absolute;
+    top: 380px;
+    margin-left: 90px;
+    padding: 10px 100px;
+    background-color: #ffffff;
+    color: #000000;
+}
+.card-1:hover > .card-btn {
+    opacity: 1;
+}
+.card-1 > .card-btn {
+    opacity: 0;
+}

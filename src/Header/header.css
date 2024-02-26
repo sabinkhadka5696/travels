@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.logo{
+    padding: 4px;
+   background-color: aqua;
+}
+.Gotrip img {
+    width: 100%;
+}
+.content {
+    font-family: 'Times New Roman', Times, serif;
+    position: absolute;
+    display: block;
+    justify-content: center;
+    text-align: center;
+    top: 300px;
+    left: 25%;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    
+}
+.context{
+    font-size: 80px;
+}
+.nav-link {
+    display: block;
+    justify-content: center;
+    align-items: center;
+}
+
+.table {
+    background-color: white;
+
+}
+
